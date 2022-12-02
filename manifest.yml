@@ -1,0 +1,6 @@
+---
+applications:
+- name: cpad
+  path: .
+  buildpack: nodejs_buildpack
+  memory: 1024M
