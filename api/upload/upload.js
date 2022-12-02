@@ -30,4 +30,4 @@ const upload = multer({storage: storage,fileFilter:fileFilter});
 router.get('/', UploadController.upload_get);
 router.post('/',UploadController.upload_post);
 
-module.exports = router;
+module.exports = router; 
